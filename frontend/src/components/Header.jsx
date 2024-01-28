@@ -20,7 +20,6 @@ function Header() {
       <div className="logo">
         <Link to="/">GoalSetter</Link>
       </div>
-      {user && <div>Hello {user.name}</div>}
       <ul>
         {user ? (
           <li>
